@@ -12,11 +12,11 @@ async function streamToBuffer(stream) {
 }
 
 // Disable body parsing to handle file upload
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+// export const config = {
+//   api: {
+//     bodyParser: false,
+//   },
+// };
 
 export async function POST(req) {
   try {
